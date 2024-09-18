@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Portal: O teste</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Portal-0.png" alt="">
+            <p>Você é Alex, um cientista que acorda em uma câmara de teste nas profundezas da Aperture Science. Confuso e desorientado, você percebe que algo deu muito errado. A inteligência artificial chamada GLaDOS está controlando o complexo e conduzindo experimentos perigosos com você. Seu único recurso é a Portal Gun, que cria portais interdimensionais para resolver enigmas e navegar pelos ambientes traiçoeiros. GLaDOS: "Seu espécime foi processado e agora estamos prontos para iniciar o teste apropriado".</p>
+            <button class="btn-proximo" data-proximo="1">Continuar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você está em uma câmara de teste com plataformas elevadas e poços cheios de um líquido tóxico. A única saída é uma porta elevada, inacessível diretamente. GLaDOS: "Para a sua segurança e a segurança de outros, por favor, não encoste em [tzzzzzd]". Você percebe que há dois caminhos possíveis.</p>
+            <button class="btn-proximo" data-proximo="3">Criar um portal no teto acima da saída e outro diretamente abaixo para cair diretamente na porta.</button>
+            <button class="btn-proximo" data-proximo="4">Criar um portal em uma plataforma elevada e outro no chão para se catapultar até a saída.</button>
+        </div>
+
+        </div>
+        <div class="passo" id="passo-3">
+            <p>
+                Você cria um portal no teto e outro no chão, caindo diretamente na saída. A porta se abre, e você se move para a próxima câmara, mas GLaDOS menciona que "a gravidade sempre vence".</p>
+            <button class="btn-proximo" data-proximo="7">Continuar para próxima câmara</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você cria o portal na plataforma elevada e outro no chão, se catapultando para a saída. No entanto, ao aterrissar, uma placa no teto se solta e cai sobre você, esmagando-o(a) instantaneamente. GLaDOS: "Muito bem! Lembre-se: o Dia de Trazer Sua Filha ao Trabalho da Aperture Science é a hora perfeita para testá-la.".</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você entra em uma câmara onde o chão está coberto por um gás tóxico. Em uma parede, há uma série de botões que, aparentemente, desativam o gás, mas o tempo é essencial.</p>
+            <button class="btn-proximo" data-proximo="9">Criar um portal acima dos botões e outro em uma plataforma segura, tentando apertar os botões rapidamente.</button>
+            <button class="btn-proximo" data-proximo="10">Criar um portal em uma ventilação no teto para tentar escapar sem tocar nos botões.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você cria os portais e rapidamente começa a apertar os botões. No entanto, os botões estão em um padrão errático, e antes que você possa desativar o gás, ele sobe e asfixia você. GLaDOS: "Ninguém irá lhe culpar por desistir. Na verdade, desistir neste momento é uma resposta perfeitamente razoável".</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você cria o portal na ventilação e consegue passar para a próxima câmara. GLaDOS: "O que você está fazendo? Mas, tudo bem." </p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/Portal-2.png" alt="Que pena que você não sobreviveu">
+            <p>Você desliga GLaDOS, mas ao fazer isso, o sistema de segurança ativa, iniciando a autodestruição da instalação. Você corre para a saída, mas não consegue escapar a tempo, e o complexo explode. GLaDOS, em sua última mensagem, comenta como a liberdade foi sua última ilusão.</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/Portal-1.png" alt="">
+            <p>Após sobreviver a vários testes, você finalmente chega a uma sala grande com um terminal central que parece ser o núcleo de GLaDOS. Ela lhe oferece uma escolha final: desligá-la ou tentar escapar sem interferir no sistema.</p>
+            <button class="btn-proximo" data-proximo="11">Desligar GLaDOS e tentar escapar pela saída que se abre.</button>
+            <button class="btn-proximo" data-proximo="13">Tentar escapar sem desligá-la, acreditando que ela se tornou uma pessoa melhor</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/Portal-3.png" alt="">
+            <p>Você tenta escapar sem desligar GLaDOS, mas as portas se fecham, e o sistema de segurança o tranca na sala. GLaDOS revela que nunca houve uma verdadeira chance de escapar. O gás começa a encher a sala, e você perde a consciência enquanto GLaDOS ri.</p>
+            <button class="btn-proximo" data-proximo="0">Resetar</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
